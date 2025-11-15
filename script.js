@@ -15,7 +15,7 @@ createbtn.addEventListener("click", function(){
 
     // create img tag 
     let img= document.createElement("img");
-    img.src= "images/delete.png";
+    img.src= "delete.png";
     notesContainer.appendChild(inputBox).appendChild(img);
 
 })
@@ -25,4 +25,5 @@ notesContainer.addEventListener("click", function(e){
     if(e.target.tagName==="IMG"){
         e.target.parentElement.remove();
     }
+
 })
